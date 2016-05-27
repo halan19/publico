@@ -1,0 +1,48 @@
+#logo {
+    background-color: #4A4A4A;
+    color: #FFD700;
+}
+#menu-2{
+    background-color: #FFD700;
+}
+.content{
+
+    background-color: #616161;
+}
+/* Color blanco al menu*/
+.skin-red .sidebar a {
+    color: white; 
+} 
+/* Color Dorado a izquierda del Menu */ 
+.skin-red .sidebar-menu>li:hover>a, .skin-red .sidebar-menu>li.active>a
+{
+    border-left-color: #FFD700;
+
+} 
+/* Evento del boton 3 rayas del menu*/
+.skin-red .main-header .navbar .sidebar-toggle:hover
+{
+
+    background-color: #FFD700;
+}
+/* Div content-wrapper*/ 
+
+.content-wrapper, .right-side{
+
+    background-color: #616161;
+}
+.color-text{
+    /*background-color: #101010;*/
+    color: black;
+    border-color: #FFD700;
+    border-width: 2px;
+
+}
+.modal-footer{
+    background-color: #3B3A3A;
+
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #FFD700;
+    border-color:#FFD700;
+}
